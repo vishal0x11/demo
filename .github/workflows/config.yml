@@ -15,6 +15,7 @@ env:
   CLUSTER_RESOURCE_GROUP: my_group
   IMG_TAG: 0.${{ github.RUN_NUMBER }}.${{ github.RUN_ATTEMPT }}
 
+
 jobs:
   build-and-push-image:
     name: build
